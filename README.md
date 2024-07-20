@@ -1,15 +1,7 @@
 ## What's the purpose of this repository?
 
-  This repository provides a modified version of the [Remnote Plugin Template React](https://github.com/remnoteio/remnote-plugin-template-react), addressing several issues in the project development.
-  
-  The original template presented issues during execution, regardless webpack version and configuration, therefore I decided to create this template with the adressed issues.
+This plugin will bring some features to make remnote more useful.
 
-## How to run the project
-
-- First at all, you need:
-  - node version at least version 20
-  - pnpm and glob packages
-
-- Once you have covered the requirements:
-  - `pnpm i` to install the packages
-  - `pnpm run dev` to run the project in development mode
+### Current features added:
+- 1. Insert code block via command palette /cpy will auto create a codeblock for python language. The current behavior is to create codeblock and then choose language by its dropdown.
+     - You can see supported languages by running the slash command, /cjs for javavascript, /cts for typescript, /cpy for python and so on..
